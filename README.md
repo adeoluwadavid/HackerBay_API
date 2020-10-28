@@ -49,7 +49,7 @@ A code coverage report will be seen on your console.
 
 ## API Endpoints
 
-### Login
+### Signin
 * Request Method: POST
 * URL: https://localhost:3000/api/signin
 
@@ -92,12 +92,13 @@ This endpoint accepts two parameters (document and patch) which are JSON objects
                 }
 * Note: Set token equals the token received at sigin
 
-
+## Used Libraries
 * [mocha](http://mochajs.org) - For automated tests.
 * [Istanbul](https://www.istanbul.js.org) - For test coverage.
 * [jsonwebtoken](https://www.npmjs.com/package/mysql2) - Token generation and verification.
 * [should](https://www.npmjs.com/package/should) - Expressive assertion library.
 * [supertest](https://www.npmjs.com/package/supertest) - For High level HTTP tests.
 
+## About Me
 * **David Adewole** -
 www.github.com/adeoluwadavid
