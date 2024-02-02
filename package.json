@@ -8,7 +8,7 @@
     "test-with-coverage": "nyc --exec babel-node --reporter=text node ./node_modules/mocha/bin/mocha src/tests/TestSuite.spec.js --reporter spec"
   },
   "dependencies": {
-    "@hapi/joi": "^15.1.1",
+    "@hapi/joi": "^17.1.1",
     "compression": "^1.7.4",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
